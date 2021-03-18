@@ -12,7 +12,7 @@ export default ({ vz, folderId }) => {
     <Modal size={Modal.Sizes.SMALL} className='mass-leave-confirm-modal'>
       <Modal.Header>
         <FormTitle tag='h2' style={{ margin: '0px' }}>
-          Leave Guilds in this Folder?
+          Are you sure?
         </FormTitle>
         <Modal.CloseButton onClick={closeModal}/>
       </Modal.Header>
@@ -27,7 +27,7 @@ export default ({ vz, folderId }) => {
           size={Text.Sizes.SIZE_16}
           color={Text.Colors.HEADER_SECONDARY}
           className={classes.subtitle}>
-          Only click the below button if you are absolutly sure.
+          Only click the below button if you are absolutely sure.
         </Text>
       </Modal.Content>
       <Modal.Footer>
