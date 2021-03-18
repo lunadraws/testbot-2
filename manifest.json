@@ -1,0 +1,10 @@
+{
+  "name": "Mass Leave Guilds",
+  "description": "Adds options to the server folder context menu to bulk leave guilds.",
+  "version": "1.0.0",
+  "author": {
+      "name" : "Swishilicous#3200",
+      "id" : "474322346937810955"
+  },
+  "license": "MIT"
+}
